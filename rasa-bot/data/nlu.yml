@@ -1,0 +1,215 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - how are you
+- intent: faq/ask_name 
+  examples: |
+    - What is your name?
+    - May I know your name?
+- intent: faq/ask_place 
+  examples: |
+    - Where are you living?
+    - Where are you? 
+- intent: faq/trimester 
+  examples: |
+    - What is trimester?
+- intent: faq/ask_exam 
+  examples: |
+    - Will SSIM conduct exams and viva in each trimester?
+- intent: faq/ask_month
+  examples: |
+    - How many months will be there in each trimester?
+- intent: faq/ask_harvard_certif
+  examples: |
+    - What do you mean by Harvard certification?
+- intent: faq/ask_business_analytics 
+  examples: |
+    - What are the subjects in business analytics ?
+- intent: faq/ask_hsb_certificate 
+  examples: |
+    - Is HSB certificate important?
+- intent: faq/ask_fact_presentation 
+  examples: |
+    - What is Company fact presentation?
+- intent: faq/ask_case_study 
+  examples: |
+    - What is case study?
+- intent: faq/case_study_importance
+  examples: |
+    - Is Case study important ?
+- intent: faq/case_study_provide 
+  examples: |
+    - Will SSIM Provides Case study?
+- intent: faq/does_smooth_management 
+  examples: |
+    - Does college have a separate application for smooth management?
+- intent: faq/what_Camu 
+  examples: |
+    - What is Camu?
+- intent: faq/college_time
+  examples: |
+    - When will College usually start ?
+- intent: faq/when_internship 
+  examples: |
+    - When will college give internship ?
+- intent: faq/will_internship
+  examples: |
+    - Will college gives us internship or we have to find?
+- intent: faq/ask_bus 
+  examples: |
+    - Do we have bus facility?
+- intent: faq/ask_hostel 
+  examples: |
+    - Do we have Hostel facility ?
+- intent: faq/ask_seminars 
+  examples: |
+    - Will SSIM conducts seminars ?
+- intent: faq/ssim_interview
+  examples: |
+    - Will SSIM Conducts workshops for Interviews ?
+- intent: faq/ssim_platform
+  examples: |
+    - Is SSIM a Digital learning platform?
+- intent: faq/ssim_book
+  examples: |
+    - What do you mean by Book review session?
+- intent: faq/ssim_library
+  examples: |
+    - Do SSIM have a Library ?
+- intent: faq/ssim_timings
+  examples: |
+    - What is the timings of SSIM?
+- intent: faq/ssim_play
+  examples: |
+    - Do SSIM have Playground ?
+- intent: faq/ssim_fests
+  examples: |
+    - Do SSIM Conducts Fests ?
+- intent: faq/ssim_courses
+  examples: |
+    - What are the courses offered in SSIM ?
+- intent: faq/ssim_canteen
+  examples: |
+    - Do we have a canteen ?
+- intent: faq/ssim_class
+  examples: |
+    - Did the college run classes in covid period ?
+- intent: faq/ssim_vaccine
+  examples: |
+    - Did college give vaccine in pandemic ?
+- intent: faq/ssim_ug
+  examples: |
+    - How many programmes are there in UG ?  
+- intent: faq/ssim_ug-prog
+  examples: |
+    - What are the programmes in UG ?
+- intent: faq/ssim_intern
+  examples: |
+    -  Is internship there in UG?
+- intent: faq/ssim_intern-ug
+  examples: |
+    -  Will college gives us internship or we have to find in UG?
+- intent: faq/ssim_uniform
+  examples: |
+    -  Do UG students have uniform?
+- intent: faq/ssim_uniform-pg
+  examples: |
+    -     Do PG students have uniform ?
+- intent: faq/ssim_add
+  examples: |
+    -  How can we get adimsion in SSIM?
+- intent: faq/ssim_where
+  examples: |
+    -  Where is SSIM campus ?
+- intent: faq/ssim_lab
+  examples: |
+    -  Do we have labs?
+- intent: faq/ssim_transport
+  examples: |
+    -  Is trasportation there in UG ?
+
+ 
+
+   

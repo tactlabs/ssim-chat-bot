@@ -1,0 +1,126 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- bot_challenge:
+    use_entities: true
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- faq:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!, anything else ?
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a Chat bot, powered by Rasa.
+  utter_faq/ask_name:
+  - text: I am called SSIM Chat Bot!
+  utter_faq/ask_place:
+  - text: I am inside your terminal !
+  utter_faq/trimester:
+  - text: If a year consists of 3 terms then each term is called trimester.
+  utter_faq/ask_exam:
+  - text: Yes, In each trimester Mid examination, internals, Final examination, and viva will be conducted.
+  utter_faq/ask_month:
+  - text: 3-4 months, College is very flexible to change according to circumstances.
+  utter_faq/ask_harvard_certif:
+  - text: We will be giving you the access to learn course from Harvard bussiness school and get certified.
+  utter_faq/ask_business_analytics:
+  - text: You will have a separate column called programs in that you can find the detailed subjects with its credits.
+  utter_faq/ask_hsb_certificate:
+  - text: Yes, An international certificate of a valid course always comes handy.
+  utter_faq/ask_fact_presentation:
+  - text: It is a small course where you need to analyse a company of your choice and prepare a presentation on it, explaining the role and objectives of the company.
+  utter_faq/ask_case_study:
+  - text: A small real time example to understand the concept.
+  utter_faq/case_study_importance:
+  - text: Yes, that makes concepts easy and make student think and them learn.
+  utter_faq/case_study_provide:
+  - text: Yes, every subject have its own set of case studies
+  utter_faq/does_smooth_management:
+  - text: Yes, Camu is the application.
+  utter_faq/what_Camu:
+  - text: It is the application that shows Schedule of the trimester, attendance, and much more.
+  utter_faq/college_time:
+  - text: Generally, SSIM starts from July - Aug.
+  utter_faq/when_internship:
+  - text: After the completion of 1st year, collage gives us internship.
+  utter_faq/will_internship:
+  - text: College gives us top companies for internships.
+  utter_faq/ask_bus:
+  - text: yes.
+  utter_faq/ask_hostel:
+  - text: Yes, boys and girls seperate 
+  utter_faq/ask_seminars:
+  - text: There will be lot of seminars and workshops in order to improve our personal and interpersonal skills.
+  utter_faq/ssim_interview :
+  - text: Yes, SSIM conducts so many workshops to clear the interview rounds
+  utter_faq/ssim_book :
+  - text: Its a review of a book, you need to completely read a book and analse the book and prepare a presentation on it.
+  utter_faq/ssim_platform :
+  - text: Yes, we have projectors at evary classroom.
+  utter_faq/ssim_library :
+  - text: Yes, a big beautiful library. with 100's of books
+  utter_faq/ssim_timings :
+  - text: 9:30 am - 4:30pm
+  utter_faq/ssim_play :
+  - text: Yes
+  utter_faq/ssim_fests :
+  - text: SSIM is full of Fests and celebrations 
+  utter_faq/ssim_courses :
+  - text: 3 courses ( PGDM, PGDM - bifaas, PGDM - Business analytics)
+  utter_faq/ssim_canteen :
+  - text: Not really, but a fast food center
+  utter_faq/ssim_class :
+  - text: No
+  utter_faq/ssim_ vaccine :
+  - text: Yes, Everyone who registered.
+  utter_faq/ssim_ug  :
+  - text: 5 prorammes
+  utter_faq/ssim_ug-prog  :
+  - text: BBA, B.com,B.com (honors), BSW, BSC
+  utter_faq/ssim_intern :
+  - text: Yes, at the end of the year.
+  utter_faq/ssim_intern-ug  :
+  - text: College gives us top companies for internships.
+  utter_faq/ssim_uniform :
+  - text: Yes
+  utter_faq/ssim_uniform-pg :
+  - text: No, but formals are compulsory
+  utter_faq/ssim_add :
+  - text: There are 2 ways, one you can register in portal or you can go to campus.
+  utter_faq/ssim_where :
+  - text: Kompally, secundrabad.
+  utter_faq/ssim_ lab :
+  - text: Yes, There many labs.
+  utter_faq/ssim_transport :
+  - text: Yes, But you need to pay for that .
+actions:
+- utter_greet
+- utter_iamabot
+forms: {}
+e2e_actions: []
