@@ -134,15 +134,18 @@ nlu:
 - intent: faq/when_internship 
   examples: |
     - When will college give internship ?
-- intent: faq/will_internship
-  examples: |
     - Will college gives us internship or we have to find?
+    - Is internship there in UG?
+    - Will College provide any Internship programs?
+    - Do SSIM provide any Internship After the First year?
+    - Will UG college provide any Internship for  UG Students?
 - intent: faq/ask_bus 
   examples: |
     - Do we have bus facility?
 - intent: faq/ask_hostel 
   examples: |
     - Do we have Hostel facility ?
+    - Are there separate hostels for boys and girl in SSIM?
 - intent: faq/ask_seminars 
   examples: |
     - Will SSIM conducts seminars ?
@@ -173,33 +176,30 @@ nlu:
 - intent: faq/ssim_canteen
   examples: |
     - Do we have a canteen ?
+    - Does SSIM have cafeteria?
 - intent: faq/ssim_class
   examples: |
     - Did the college run classes in covid period ?
 - intent: faq/ssim_vaccine
   examples: |
-    - Did college give vaccine in pandemic ?
+    - Does the college provide vaccine in pandemic ?
 - intent: faq/ssim_ug
   examples: |
     - How many programmes are there in UG ?  
 - intent: faq/ssim_ug-prog
   examples: |
     - What are the programmes in UG ?
-- intent: faq/ssim_intern
-  examples: |
-    -  Is internship there in UG?
-- intent: faq/ssim_intern-ug
-  examples: |
-    -  Will college gives us internship or we have to find in UG?
 - intent: faq/ssim_uniform
   examples: |
     -  Do UG students have uniform?
+    -  Does SSIM provide Uniform?
 - intent: faq/ssim_uniform-pg
   examples: |
-    -     Do PG students have uniform ?
+    -  Do PG students have uniform ?
+    - Is there any dress code for students?
 - intent: faq/ssim_add
   examples: |
-    -  How can we get adimsion in SSIM?
+    -  How can we get adimission in SSIM?
 - intent: faq/ssim_where
   examples: |
     -  Where is SSIM campus ?
@@ -215,9 +215,6 @@ nlu:
 - intent: faq/ug_workshops
   examples: |
     -  Will there be any workshops regarding interviws in UG?
-- intent: faq/seminars
-  examples: |
-    -  Are seminars conducted ?
 - intent: faq/ug_ssim
   examples: |
     -  UG in SSIM is affiliated  or autonomus ?
@@ -256,10 +253,8 @@ nlu:
     -  How many courses are provdied in SSIM college?
 - intent: faq/num_trimeseter
   examples: |
-    -   How many Trimester's in course?
-- intent: faq/provide_internship
-  examples: |
-    -  Will College provide any Internship programs?
+    - How many Trimester's in course?
+    - How many trimesters does SSIM have for all courses
 - intent: faq/ug_pgdm
   examples: |
     -  How many UG students attend this PGDM ?
@@ -296,8 +291,420 @@ nlu:
 - intent: faq/top_recruiters
   examples: |
     -  who are the top recruiters? 
- 
+- intent: faq/avg_pkg
+  examples: |
+    -  What is the average package?
+- intent: faq/online_reg
+  examples: |
+    -  Can you register Online registration?
+- intent: faq/irs_meaning
+  examples: |
+    -  What do you mean by Industry Review Session?
+- intent: faq/bus_analytics
+  examples: |
+    -  Who can take business analytics ?
+- intent: faq/AI_ML
+  examples: |
+    -  Should we know AI and machine learning before we join ?
+- intent: faq/com_stu
+  examples: |
+    -  Can Commerce students take Business analytics?
+- intent: faq/ug_course
+  examples: |
+    -  How many UG courses offered by SSIM
+- intent: faq/mess
+  examples: |
+    -  How are the mess facilities at SSIM?
+- intent: faq/mess_good
+  examples: |
+    -  Is the mess food is good?
+- intent: faq/mess_comp
+  examples: |
+    -  Is it compulsory to take mess if in a hostel? 
+- intent: faq/online_reg
+  examples: |
+    -  Can you register Online registration?
+- intent: faq/bus_fee
+  examples: |
+    -  Is bus fee is free for UG students?
+- intent: faq/girls_room
+  examples: |
+    -  Does college have restrooms for girls seperately?
+- intent: faq/dorms
+  examples: |
+    -  How many dormitories are there at SSIM?
+- intent: faq/doc
+  examples: |
+    -  Is there a nurse or doctor on duty in SSIM?
+- intent: faq/room_share
+  examples: |
+    -  How many Students share a room in hostel?
+- intent: faq/AC
+  examples: |
+    -  Wiil college provided AC class rooms for UG students?
+- intent: faq/location
+  examples: |
+    -  Where is SSIM located?
+- intent: faq/clubs
+  examples: |
+    -  Are they any clubs in SSIM?
+- intent: faq/clubs_count
+  examples: |
+    -  How many clubs are there in SSIM?
+- intent: faq/PG_edu
+  examples: |
+    -    Will college provide distance education for PG students?
+- intent: faq/UG_edu
+  examples: |
+    -    Will college provide distance education for UG students
+- intent: faq/NAAC
+  examples: |
+    -   what is the NAAC level of SSIM?
+- intent: faq/parking
+  examples: |
+    -   Is there parking slot in college?
+- intent: faq/pgdm
+  examples: |
+    -    Is PGDM in SSIM  Autonomous (or) Affiliated?
+- intent: faq/office
+  examples: |
+    -  Will office of SSIM be available in covid times ?
+- intent: faq/PHD
+  examples: |
+    -  Can we do PhD in SSIM ?
+- intent: faq/intern_comp
+  examples: |
+    -   Is internship compulsory ?
+- intent: faq/dress_allow
+  examples: |
+    -  Is jeans and tops allowed in college ?
+- intent: faq/strict
+  examples: |
+    -   Is hostel strict ?
+- intent: faq/food
+  examples: |
+    -   How is the food in mess ?
+- intent: faq/UG_ssim
+  examples: |
+    -    Is UG in SSIM is affiliated (or) Autonomus?
+- intent: faq/type
+  examples: |
+    -   Which type of Institution/University ,SSIM is?
+- intent: faq/pgdm_amt
+  examples: |
+    -   How many PGDM programmare provided?
+- intent: faq/programs
+  examples: |
+    -  What are the Programmes Provided ?
+- intent: faq/transport
+  examples: |
+    -  Does SSIM provide transport services ?
+- intent: faq/year
+  examples: |
+    -  SSIM established in which Year ?
+- intent: faq/loan
+  examples: |
+    -   Does SSIM provide any bank loan facility for fee ?
+- intent: faq/scholarship
+  examples: |
+    - Does SSIM provide any scholarship benifits for the students ?
+- intent: faq/fac_lab
+  examples: |
+    -   what are the labs facilites does SSIM provide ?
+- intent: faq/foreign_asso
+  examples: |
+    -    How many foreign associations SSIM has?
+- intent: faq/what_asso
+  examples: |
+    -   What are the foreign associations of SSIM ?
+- intent: faq/accred
+  examples: |
+    -    What are the accredations for the SSIM ?
+- intent: faq/naac_acc
+  examples: |
+    -  What is NAAC accredations ?
+- intent: faq/cert
+  examples: |
+    - What are the additonal certificates for the students ?
+- intent: faq/rank_B_skl
+  examples: |
+    -   What is the rank of SSIM in South Zone as per the week B-school survey ?
+- intent: faq/rank_all_in
+  examples: |
+    - What is the rank of SSIM in all India as per the week B-school survey ?
+- intent: faq/gateway
+  examples: |
+    -   Does SSIM provide Gateway to US?
+- intent: faq/events
+  examples: |
+    -   What are the Events conducted by SSIM?
+- intent: faq/pgdm_what
+  examples: |
+    -   What is PGDM?
+- intent: faq/differ
+  examples: |
+    -    How PGDM is different from MBA?
+- intent: faq/ba
+  examples: |
+    -   Business Analytics comes under which department?
+- intent: faq/eaa
+  examples: |
+    -    Any extra activities other than academics?
+- intent: faq/refer_frnd
+  examples: |
+    -  Refer to a Friend?
+- intent: faq/skill_dev
+  examples: |
+    - Any skill development programs?
+- intent: faq/occ_events
+  examples: |
+    -   Events on Occasional days?
+- intent: faq/avg_exp_fac
+  examples: |
+    - Average experience of the faculty?
+- intent: faq/age_limit
+  examples: |
+    -   Any Age limit to join for PGDM?
+- intent: faq/dist_edu
+  examples: |
+    -   Distance education allowed?
+- intent: faq/attendance
+  examples: |
+    - Is maintaining attendance mandatory?
+- intent: faq/part_time_pgdm
+  examples: |
+    - Is there any option to do part time job while doing PGDM?
+- intent: faq/voc_studies
+  examples: |
+    - Can students apply for vocational studies in foreign countries?
+- intent: faq/anti_rag_dept
+  examples: |
+    - Is there any anti-ragging department?
+- intent: faq/best_advice
+  examples: |
+    - Whats the best general advice for an incoming student?
+- intent: faq/digital_class
+  examples: |
+    - Does SSIM have digital classrooms?
+- intent: faq/admission_fee
+  examples: |
+    - Does SSIM charge any fee for admission or application form?
+- intent: faq/original_certif
+  examples: |
+    - Do students need to submit their original certificates?
+- intent: faq/eligible_pgdm
+  examples: |
+    - What is the eligibility for admission in PGDM?
+- intent: faq/id_card
+  examples: |
+    - Does SSIM provide ID card?
+- intent: faq/setection_criteria
+  examples: |
+    - What is the selection criteria for joining the college?
+- intent: faq/books
+  examples: |
+    - Does SSIM provide books for each trimester?
+- intent: faq/wait_list
+  examples: |
+    - Is there a waiting list in admission process?
+- intent: faq/admit_trimester
+  examples: |
+    - Does SSIM admit students enter in between trimesters?
+- intent: faq/quotas
+  examples: |
+    - Are there quotas for certain kind of applicants?
+- intent: faq/defer_admission
+  examples: |
+    - May the student can defer the admission once comitted?
+- intent: faq/parking
+  examples: |
+    - Does SSIM have parking lot?
+- intent: faq/secondary_school
+  examples: |
+    - Are there secondary school course requirements for admission?
+- intent: faq/lift
+  examples: |
+    - Does SSIM have Lift facility?
+- intent: faq/app_form_change
+  examples: |
+    - Can I add or change something I wrote on my common application form?
+- intent: faq/change_info
+  examples: |
+    - My contact information has been changed since I have submitted my application form. How can I correct it?
+- intent: faq/withdraw_admission
+  examples: |
+    - Can student be able to withdraw the admission after paying the admission fee?
+- intent: faq/where_ssim
+  examples: |
+    - Where is SSIM Institute ?
+- intent: faq/basic_eligibility
+  examples: |
+    - What is the Basic Eligibility we need to get into SSIM?
+- intent: faq/basic_admission
+  examples: |
+    - What is the Basic Admission Criteria For SSIM
+- intent: faq/entrance
+  examples: |
+    - What all Entrance Exam that SSIM accepts  
+- intent: faq/how_drop
+  examples: |
+    - How can we drop our Applications for SSIM
+- intent: faq/online_reg
+  examples: |
+    - Do ssim has an online registration facilities
+- intent: faq/interview
+  examples: |
+    - Does SSIM as an Interview at the time of Admission 
+- intent: faq/what_interview
+  examples: |
+    - What is the Interview Process
+- intent: faq/scolarship
+  examples: |
+    - Does SSIM provide Scholarship
+- intent: faq/total_fee
+  examples: |
+    - What is total FEE Of SSIM
+- intent: faq/aicte_approve
+  examples: |
+    - Are the programs in SSIM Hyderabad AICTE approved?
+- intent: faq/mba_pgm
+  examples: |
+    - Does SSIM has any executive MBA programs
+- intent: faq/part_time
+  examples: |
+    - Does offer part-time courses?
+- intent: faq/no_special
+  examples: |
+    - Number of Specialization does SSIM have?
+- intent: faq/what_special
+  examples: |
+    - What all Specializations that are offered by SSIM
+- intent: faq/faculty
+  examples: |
+    - How is the Faculty at SSIM
+- intent: faq/extra
+  examples: |
+    - Are they any extra and Co-curricular activities
+- intent: faq/international_edu
+  examples: |
+    - Are there any International Education service
+- intent: faq/avg_place
+  examples: |
+    - What is the Average Placement rate?
+- intent: faq/classroom
+  examples: |
+    - What is SSIM Classroom type?
+- intent: faq/mode_payment
+  examples: |
+    - What are the Mode's of Payment of College FEE
+- intent: faq/setection_criteria
+  examples: |
+    - What is the selection criteria for joining the college?
+- intent: faq/books
+  examples: |
+    - Does SSIM provide books for each trimester?
+- intent: faq/wait_list
+  examples: |
+    - Is there a waiting list in admission process?
+- intent: faq/admit_trimester
+  examples: |
+    - Does SSIM admit students enter in between trimesters?
+- intent: faq/quotas
+  examples: |
+    - Are there quotas for certain kind of applicants?
+- intent: faq/defer_admission
+  examples: |
+    - May the student can defer the admission once comitted?
+- intent: faq/parking
+  examples: |
+    - Does SSIM have parking lot?
+- intent: faq/secondary_school
+  examples: |
+    - Are there secondary school course requirements for admission?
+- intent: faq/lift
+  examples: |
+    - Does SSIM have Lift facility?
+- intent: faq/app_form_change
+  examples: |
+    - Can I add or change something I wrote on my common application form?
+- intent: faq/change_info
+  examples: |
+    - My contact information has been changed since I have submitted my application form. How can I correct it?
+- intent: faq/withdraw_admission
+  examples: |
+    - Can student be able to withdraw the admission after paying the admission fee?
+- intent: faq/where_ssim
+  examples: |
+    - Where is SSIM Institute ?
+- intent: faq/basic_eligibility
+  examples: |
+    - What is the Basic Eligibility we need to get into SSIM?
+- intent: faq/basic_admission
+  examples: |
+    - What is the Basic Admission Criteria For SSIM
+- intent: faq/entrance
+  examples: |
+    - What all Entrance Exam that SSIM accepts  
+- intent: faq/how_drop
+  examples: |
+    - How can we drop our Applications for SSIM
+- intent: faq/online_reg
+  examples: |
+    - Do ssim has an online registration facilities
+- intent: faq/interview
+  examples: |
+    - Does SSIM as an Interview at the time of Admission 
+- intent: faq/what_interview
+  examples: |
+    - What is the Interview Process
+- intent: faq/scolarship
+  examples: |
+    - Does SSIM provide Scholarship
+- intent: faq/total_fee
+  examples: |
+    - What is total FEE Of SSIM
+- intent: faq/aicte_approve
+  examples: |
+    - Are the programs in SSIM Hyderabad AICTE approved?
+- intent: faq/sep_hostel
+  examples: |
+    - Are there separate hostels for boys and girl in SSIM?
+- intent: faq/mba_pgm
+  examples: |
+    - Does SSIM has any executive MBA programs
+- intent: faq/part_time
+  examples: |
+    - Does offer part-time courses?
+- intent: faq/no_special
+  examples: |
+    - Number of Specialization does SSIM have?
+- intent: faq/what_special
+  examples: |
+    - What all Specializations that are offered by SSIM
+- intent: faq/no_trimester
+  examples: |
+    - How many trimesters does SSIM have for all courses 
+- intent: faq/faculty
+  examples: |
+    - How is the Faculty at SSIM
+- intent: faq/extra
+  examples: |
+    - Are they any extra and Co-curricular activities
+- intent: faq/international_edu
+  examples: |
+    - Are there any International Education service
+- intent: faq/avg_place
+  examples: |
+    - What is the Average Placement rate?
+- intent: faq/classroom
+  examples: |
+    - What is SSIM Classroom type?
+- intent: faq/mode_payment
+  examples: |
+    - What are the Mode's of Payment of College FEE
+- intent: faq/medical_room
+  examples: |
+    - Does SSIM has any Medical room?
 
- 
 
    

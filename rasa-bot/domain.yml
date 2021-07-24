@@ -68,11 +68,9 @@ responses:
   utter_faq/college_time:
   - text: Generally, SSIM starts from July - Aug.
   utter_faq/when_internship:
-  - text: After the completion of 1st year, collage gives us internship.
-  utter_faq/will_internship:
-  - text: College gives us top companies for internships.
+  - text: After the completion of 1st year UG, college gives us internship.
   utter_faq/ask_bus:
-  - text: yes.
+  - text: yes, but fee should be paid
   utter_faq/ask_hostel:
   - text: Yes, boys and girls seperate 
   utter_faq/ask_seminars:
@@ -96,17 +94,13 @@ responses:
   utter_faq/ssim_canteen :
   - text: Not really, but a fast food center
   utter_faq/ssim_class :
-  - text: No
+  - text: No.
   utter_faq/ssim_ vaccine :
   - text: Yes, Everyone who registered.
   utter_faq/ssim_ug  :
   - text: 5 prorammes
   utter_faq/ssim_ug-prog  :
-  - text: BBA, B.com,B.com (honors), BSW, BSC
-  utter_faq/ssim_intern :
-  - text: Yes, at the end of the year.
-  utter_faq/ssim_intern-ug  :
-  - text: College gives us top companies for internships.
+  - text: BBA, B.com,B.com (honors), BSW, BSC.
   utter_faq/ssim_uniform :
   - text: Yes
   utter_faq/ssim_uniform-pg :
@@ -123,8 +117,6 @@ responses:
   - text: No. 
   utter_faq/ug_workshops :
   - text: Yes, but too low.
-  utter_faq/seminars :
-  - text: Yes.
   utter_faq/ug_ssim :
   - text: Affiliated to OU.
   utter_faq/pg_ssim :
@@ -151,8 +143,6 @@ responses:
   - text: Three, PGDM,PGDM(Bifaas),PGDM(Business analytics)
   utter_faq/num_trimeseter :
   - text: six
-  utter_faq/provide_internship :
-  - text: Yes, Top companies comes for internships
   utter_faq/ug_pgdm :
   - text: 60+
   utter_faq/special_exam :
@@ -177,7 +167,216 @@ responses:
   - text: Yes.
   utter_faq/top_recruiters :
   - text: ICICI Bank, Deloitte, Bandhan Bank
+  utter_faq/avg_pkg :
+  - text: 6.50L
+  utter_faq/online_reg:
+  - text: Yes.
+  utter_faq/irs_meaning:
+  - text: We have to understand the Industry very well. make presentation on it.
+  utter_faq/bus_analytics:
+  - text: Whoever interested can take this course
+  utter_faq/AI_ML:
+  - text: Yes.
+  utter_faq/com_stu:
+  - text: Yes.
+  utter_faq/ug_course:
+  - text: BSc, BCom General, BCom honor, BBA, BSW
+  utter_faq/mess:
+  - text: Yes, there is one common mess for hostlers only
+  utter_faq/mess_good:
+  - text: Yes , it is
+  utter_faq/mess_comp:
+  - text: Yes, it is compulsory to pay mess fee but not compulsory to eat.
+  utter_faq/ online_reg:
+  - text: Yes.
+  utter_faq/ bus_fee:
+  - text: No. we have to pay
+  utter_faq/ girls_room:
+  - text: Yes.
+  utter_faq/ dorms:
+  - text: four 
+  utter_faq/ doc:
+  - text: No.
+  utter_faq/ room_share:
+  - text: two
+  utter_faq/ AC:
+  - text: No.
+  utter_faq/ location:
+  - text: Kompally, Secunderabad
+  utter_faq/ clubs:
+  - text: Yes ,we have but wherein we do fun activities
+  utter_faq/ clubs_count:
+  - text: 7 - 8 clubs
+  utter_faq/PG_edu:
+  - text: Not Possible
+  utter_faq/UG_edu:
+  - text: Not Possible
+  utter_faq/NAAC:
+  - text: B + 
+  utter_faq/parking:
+  - text: yes.
+  utter_faq/pgdm:
+  - text: Autonomous
+  utter_faq/office:
+  - text: Yes.
+  utter_faq/PHD:
+  - text: Yes.
+  utter_faq/intern_comp:
+  - text: Yes in PGDM
+  utter_faq/dress_allow:
+  - text: No, strictly we have to were formals.
+  utter_faq/strict:
+  - text: No, But you need to follow the rules
+  utter_faq/food:
+  - text: Very Tasty
+  utter_faq/UG_ssim:
+  - text: It is affiliated to Osmania University
+  utter_faq/type:
+  - text: SSIM is Private-Self Financing Institution
+  utter_faq/pgdm_amt:
+  - text: 5 PGDM programs are provided by SSIM
+  utter_faq/programs:
+  - text: PGDM,PGDM(Banking Insurance And FinancialService),PGDM (Business Analytics) ,PGDM (Triple Specialization) ,FELLOWSHIP PROGRAMME IN MANAGEMENT  
+  utter_faq/transport:
+  - text: Yes , Transport services are provided
+  utter_faq/year:
+  - text: SSIM is established in 1992.
+  utter_faq/loan:
+  - text: Yes , bank loan facility is provided for students .
+  utter_faq/scholarship:
+  - text: Yes
+  utter_faq/fac_lab:
+  - text: Finance lab,Analytics lab,NSE lab
+  utter_faq/foreign_asso:
+  - text: SSIM has 5 Foreign associations .
+  utter_faq/what_asso:
+  - text: Herzing University,Harvard Business School Online, Synergy University,Alliant International Universtiy,Lincoln University College .
+  utter_faq/accred:
+  - text: NBA, NIRF, NAAC
+  utter_faq/naac_acc:
+  - text: A+
+  utter_faq/cert:
+  - text: HBS, Capstone.
+  utter_faq/rank_B_skl:
+  - text: SSIM ranks 18th  in South Zone as per the week B-school survey .
+  utter_faq/rank_all_in:
+  - text: SSIM ranks 71st  in India as per the week B-school survey
+  utter_faq/gateway:
+  - text: Yes
+  utter_faq/events:
+  - text: SAMAROH-2021, SUMEDHA Management Fest ,SAMANVAY-2019
+  utter_faq/pgdm_what:
+  - text: Post Graduation Diploma in Management
+  utter_faq/differ:
+  - text: PGDM students have more of practical knowledge.
+  utter_faq/ba:
+  - text: Data Scienct Department
+  utter_faq/eaa:
+  - text: We have clubs from each department
+  utter_faq/refer_frnd:
+  - text: Ofcourse, Yes.
+  utter_faq/skill_dev:
+  - text: Yes. We do conduct Aptitude and Versant training sessions also the Guest Lectures
+  utter_faq/occ_events:
+  - text: Yes
+  utter_faq/avg_exp_fac:
+  - text: 8 Years
+  utter_faq/age_limit:
+  - text: No age limit
+  utter_faq/dist_edu:
+  - text: Not allowed
+  utter_faq/attendance:
+  - text: Yes.
+  utter_faq/part_time_pgdm:
+  - text: No.
+  utter_faq/voc_studies:
+  - text: Yes, we provide an opportunity to students to complete their 2nd year course in Dubai, Malaysia and China.
+  utter_faq/anti_rag_dept:
+  - text: Yes.
+  utter_faq/best_advice:
+  - text: When you arrive on campus, attend all orientation meetings scheduled at your college
+  utter_faq/digital_class:
+  - text: Yes.
   
+  utter_faq/admission_fee:
+  - text: Yes.
+  utter_faq/original_certif:
+  - text: No.
+  utter_faq/eligible_pgdm:
+  - text: Must have cleared any entrance exam.
+  utter_faq/id_card:
+  - text: Yes.
+  utter_faq/setection_criteria:
+  - text: Selection is based on the performance in GD and Personal Interview
+  utter_faq/books:
+  - text: Yes.
+  utter_faq/wait_list:
+  - text: No.
+  utter_faq/admit_trimester:
+  - text: No.
+  utter_faq/quotas:
+  - text: No, admission department does not use any quotas
+  utter_faq/defer_admission:
+  - text: Yes.
+  utter_faq/parking:
+  - text: Yes.
+  utter_faq/secondary_school:
+  - text: No.
+  utter_faq/lift:
+  - text: Yes.
+  utter_faq/app_form_change:
+  - text: Unfortunately, you are not able to add to or change the Common Application forms after they have been submitted. However, you may upload additional information and materials using CAMU app.
+  utter_faq/change_info:
+  - text: Student can able to update the details through Camu app
+  utter_faq/withdraw_admission:
+  - text: Yes.
+  utter_faq/where_ssim:
+  - text: Kompally
+  utter_faq/basic_eligibility:
+  - text: 10 + 2 with at least 50% marks in UnderGrad
+  utter_faq/basic_admission:
+  - text: Entrance Exam
+  utter_faq/entrance:
+  - text: CAT/XAT/MAT/GMAT/CMAT/ATMA/TSICET
+  utter_faq/how_drop:
+  - text: Both Online and Offline
+  utter_faq/online_reg:
+  - text: Yes.
+  utter_faq/interview:
+  - text: Yes.
+  utter_faq/what_interview:
+  - text: Group discussion and Personal Interview
+  utter_faq/scolarship:
+  - text: Yes.
+  utter_faq/total_fee:
+  - text: 7 lakhs
+  utter_faq/aicte_approve:
+  - text: Yes.
+  utter_faq/mba_pgm:
+  - text: No.
+  utter_faq/part_time:
+  - text: No.
+  utter_faq/no_special:
+  - text: three
+  utter_faq/what_special:
+  - text: PGDM, PGDM – Banking, Insurance and Financial Services, PGDM – Business Analytics
+  utter_faq/faculty:
+  - text: Highly experienced faculty 
+  utter_faq/extra:
+  - text: Yes.
+  utter_faq/international_edu:
+  - text: Yes , If needed we can apply to overseas after the completion of First year
+  utter_faq/avg_place:
+  - text: 98% get Placed in different company
+  utter_faq/classroom:
+  - text: AC
+  utter_faq/mode_payment:
+  - text: UPI, Through SSIM college app, Bank deposit 
+  utter_faq/medical_room:
+  - text: No.
+  utter_faq/yes:
+  - text: Yes.
+
 actions:
 - utter_greet
 - utter_iamabot
