@@ -119,6 +119,65 @@ responses:
   - text: Yes, There many labs.
   utter_faq/ssim_transport :
   - text: Yes, But you need to pay for that .
+  utter_faq/AC_facility :
+  - text: No. 
+  utter_faq/ug_workshops :
+  - text: Yes, but too low.
+  utter_faq/seminars :
+  - text: Yes.
+  utter_faq/ug_ssim :
+  - text: Affiliated to OU.
+  utter_faq/pg_ssim :
+  - text: Autonomus
+  utter_faq/field_trip_ug :
+  - text: In the 2nd year there will be field trips
+  utter_faq/distance_edu :
+  - text: not possible 
+  utter_faq/pg_work :
+  - text: not possible 
+  utter_faq/laptop :
+  - text: Yes, If you have it one then the price will be deducted ain the fee structure.
+  utter_faq/fee_time :
+  - text: Every thing will be mentioned in MyCamu.
+  utter_faq/anti_rag :
+  - text: Yes, SSIM is very strict in maintaining peace and greenary.
+  utter_faq/student_placed :
+  - text: there were 197 students
+  utter_faq/diff_fee :
+  - text: Yes, According to programme selected fee will be different.
+  utter_faq/alumni :
+  - text: 5000+
+  utter_faq/num_courses :
+  - text: Three, PGDM,PGDM(Bifaas),PGDM(Business analytics)
+  utter_faq/num_trimeseter :
+  - text: six
+  utter_faq/provide_internship :
+  - text: Yes, Top companies comes for internships
+  utter_faq/ug_pgdm :
+  - text: 60+
+  utter_faq/special_exam :
+  - text: Yes, You have to write a exam 
+  utter_faq/college_system :
+  - text: Trimester
+  utter_faq/college_honors :
+  - text: UG,PG,Ph.D
+  utter_faq/academic_advice :
+  - text: Conducts many workshops
+  utter_faq/tutor_service :
+  - text: Classrooms are big and air conditioned, open wifi across the college
+  utter_faq/job_place :
+  - text: 98%
+  utter_faq/mock_test :
+  - text: Yes.
+  utter_faq/edu_loan :
+  - text: Yes.
+  utter_faq/wifi :
+  - text: SSIM has Open wifi
+  utter_faq/interpersonal_skills :
+  - text: Yes.
+  utter_faq/top_recruiters :
+  - text: ICICI Bank, Deloitte, Bandhan Bank
+  
 actions:
 - utter_greet
 - utter_iamabot

@@ -208,7 +208,95 @@ nlu:
     -  Do we have labs?
 - intent: faq/ssim_transport
   examples: |
-    -  Is trasportation there in UG ?
+    - Is transportation there in UG ?
+- intent: faq/AC_facility
+  examples: |
+    -  There is AC facility ?
+- intent: faq/ug_workshops
+  examples: |
+    -  Will there be any workshops regarding interviws in UG?
+- intent: faq/seminars
+  examples: |
+    -  Are seminars conducted ?
+- intent: faq/ug_ssim
+  examples: |
+    -  UG in SSIM is affiliated  or autonomus ?
+- intent: faq/pg_ssim
+  examples: |
+    -  PG in SSIM is Affiliated or Autonomus ?
+- intent: faq/field_trip_ug
+  examples: |
+    -  Are there any field trips in UG?
+- intent: faq/distance_edu
+  examples: |
+    -  Can we study distance education in UG ?
+- intent: faq/pg_work
+  examples: |
+    -  Can we study PG along with working ?
+- intent: faq/laptop
+  examples: |
+    -  Will college gives us laptop ?
+- intent: faq/fee_time
+  examples: |
+    -  When should we pay fee's ?
+- intent: faq/anti_rag
+  examples: |
+    -  Is SSIM is anti-ragging college ?
+- intent: faq/student_placed
+  examples: |
+    -  How many students are placed in Last Year? ?
+- intent: faq/diff_fee
+  examples: |
+    -  Do we have different fee for different programmes ?
+- intent: faq/alumni
+  examples: |
+    -  How many alumni's does SSIM college have?
+- intent: faq/num_courses
+  examples: |
+    -  How many courses are provdied in SSIM college?
+- intent: faq/num_trimeseter
+  examples: |
+    -   How many Trimester's in course?
+- intent: faq/provide_internship
+  examples: |
+    -  Will College provide any Internship programs?
+- intent: faq/ug_pgdm
+  examples: |
+    -  How many UG students attend this PGDM ?
+- intent: faq/special_exam
+  examples: |
+    -  Will College conducted any special exam for  joining the college?
+- intent: faq/college_system
+  examples: |
+    -  Is the college on a semester, trimester, or quarter system?
+- intent: faq/college_honors
+  examples: |
+    -  What does the honors college offer?
+- intent: faq/academic_advice
+  examples: |
+    -  How do SSIM provide academic advice to students?
+- intent: faq/tutor_service
+  examples: |
+    -  What tutoring services do college have?
+- intent: faq/job_place
+  examples: |
+    -  What is the Job placement rate?
+- intent: faq/mock_test
+  examples: |
+    -  Will SSIM provide any mock test for students?
+- intent: faq/edu_loan
+  examples: |
+    -  Do college provide Education Loan for fees?
+- intent: faq/wifi
+  examples: |
+    -  Do they provide WIFI?
+- intent: faq/interpersonal_skills
+  examples: |
+    -  Will SSIM develop Interpersonal skills?
+- intent: faq/top_recruiters
+  examples: |
+    -  who are the top recruiters? 
+ 
 
  
 
