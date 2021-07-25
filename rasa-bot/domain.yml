@@ -293,10 +293,51 @@ responses:
   - text: AC
   utter_faq/mode_payment:
   - text: UPI, Through SSIM college app, Bank deposit 
+  utter_faq/campus_maintain:
+  - text: Hygienically
+  utter_faq/sections_alot:
+  - text: Depends On the NO.Of Admissions
+  utter_faq/students_classroom:
+  - text: fifty
+  utter_faq/how_blocks:
+  - text: one
+  utter_faq/how_route:
+  - text: 6-7 Route Map
+  utter_faq/informal_dress_suit:
+  - text: No not needed to regularly
+  utter_faq/covid_maintain:
+  - text: Regular Sanitisation is done
+  utter_faq/stress_bust:
+  - text: YES in Each Floor
+  utter_faq/friendly_faculty:
+  - text: YES, They encorage Student Ideas
+  utter_faq/faculty_experience:
+  - text: 8 Years
+  utter_faq/age_limit_pgdm:
+  - text: No age limit
+  utter_faq/distance_education:
+  - text: Not allowed
+  utter_faq/dress_code_students:
+  - text: Formals
+  utter_faq/students_foreign_studies:
+  - text: Yes, we provide an opportunity to students to complete their 2nd year course in Dubai, Malaysia and China.
+  utter_faq/general_advice:
+  - text: When you arrive on campus, attend all orientation meetings scheduled at your college
+  utter_faq/eligibility_admission:
+  - text: Must have cleared any entrance exam.
+  utter_faq/selection_criteria:
+  - text: Selection is based on the performance in GD and Personal Interview
+  utter_faq/quotas_applicants:
+  - text: No, admission department does not use any quotas
+  utter_faq/change_common_application:
+  - text: Unfortunately, you are not able to add to or change the Common Application forms after they have been submitted. However, you may upload additional information and materials using CAMU app.
+  utter_faq/contact_information_change:
+  - text: Student can able to update the details through Camu app
   utter_faq/yes:
   - text: Yes.
   utter_faq/no:
   - text: No.
+
 actions:
 - utter_greet
 - utter_iamabot

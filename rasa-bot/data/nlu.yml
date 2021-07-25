@@ -303,7 +303,7 @@ nlu:
   examples: |
     -  Can you register Online registration?
     -  Can you register Online ?
-    -  Does ssim has an online registration facilities
+    -  Does ssim has an online registration facilities?
 - intent: faq/irs_meaning
   examples: |
     -  What do you mean by Industry Review Session?
@@ -589,6 +589,170 @@ nlu:
 - intent: faq/no
   examples: |
     - Does SSIM has any Medical room?
-
-
+- intent: faq/yes
+  examples: |
+    - Are there any Projector facilities in Classroom
+- intent: faq/yes
+  examples: |
+    - Does SSIM have Computer lab Facilities
+- intent: faq/campus_maintain
+  examples: |
+    - How Is SSIM Campus is Maintained
+- intent: faq/sections_alot
+  examples: |
+    - How Sections are alotted to each cource
+- intent: faq/students_classroom
+  examples: |
+    - Max No.of Students in a Classroom
+    - what is the maximum capacity of students in a Classroom
+- intent: faq/no
+  examples: |
+    - Is there any seperate classroom for Boys and Girls
+- intent: faq/no
+  examples: |
+    - DO Girls and Boys sit together
+- intent: faq/how_blocks
+  examples: |
+    - How many Blocks are there in SSIM
+- intent: faq/no
+  examples: |
+    - Is there any Staff room inside the main Block
+- intent: faq/yes
+  examples: |
+    - Does SSIM Provide Transport service to far distance students
+- intent: faq/how_route
+  examples: |
+    - How many route maps are for SSIM
+- intent: faq/yes
+  examples: |
+    - Electronic Gagets like Phones Laptops are allowed in SSIM
+- intent: faq/yes
+  examples: |
+    - Does each classroom have power socket fasilities
+- intent: faq/no
+  examples: |
+    - Casual Dressing Allowed in SSIM 
+- intent: faq/informal_dress_suit
+  examples: |
+    - In Informal Dressing should we regularly wear Suit
+- intent: faq/yes
+  examples: |
+    - Does SSIM have a Conference Hall
+- intent: faq/yes
+  examples: |
+    - Does SSIM have Landscape View 
+- intent: faq/yes
+  examples: |
+    - Is there any Dinning area for lunch
+- intent: faq/yes
+  examples: |
+    - Does each floor have seperate Washrooms
+- intent: faq/covid_maintain
+  examples: |
+    - Due to Covid-19 How SSIM is maintaining the envi
+- intent: faq/stress_bust
+  examples: |
+    - For Stress bust do SSIM have Coffee Machines
+- intent: faq/no
+  examples: |
+    - Do SSIM provide any Free period for extra curicular activity 
+- intent: faq/no
+  examples: |
+    - Are there any Sports Club in SSIM ?
+- intent: faq/friendly_faculty
+  examples: |
+    - Does SSIM have a Friendly Faculty
+- intent: faq/yes
+  examples: |
+    - Does SSIM provide regular interaction with Influencers
+- intent: faq/yes
+  examples: |
+    - Events on Occasional days?
+- intent: faq/faculty_experience
+  examples: |
+    - Average experience of the faculty?
+- intent: faq/age_limit_pgdm
+  examples: |
+    - Any Age limit to join for PGDM?
+- intent: faq/distance_education
+  examples: |
+    - Distance education allowed?
+- intent: faq/yes
+  examples: |
+    - Is maintaining attendance mandatory?
+- intent: faq/no
+  examples: |
+    - Is there any option to do part time job while doing PGDM?
+- intent: faq/yes
+  examples: |
+    - Does SSIM provide Uniform?
+- intent: faq/dress_code_students
+  examples: |
+    - Is there any dress code for students?
+- intent: faq/students_foreign_studies
+  examples: |
+    - Can students apply for vocational studies in foreign countries?
+- intent: faq/yes
+  examples: |
+    - Is there any anti-ragging department?
+- intent: faq/general_advice
+  examples: |
+    - Whats the best general advice for an incoming student?
+- intent: faq/yes
+  examples: |
+    - Does SSIM have digital classrooms?
+- intent: faq/no
+  examples: |
+    - Does SSIM have cafetaria?
+- intent: faq/yes
+  examples: |
+    - Does SSIM have LIbrary?
+- intent: faq/yes
+  examples: |
+    - Does SSIM charge any fee for admission or application form?
+- intent: faq/no
+  examples: |
+    - Do students need to submit their original certificates?
+- intent: faq/eligibility_admission
+  examples: |
+    - What is the eligibility for admission in PGDM?
+- intent: faq/yes
+  examples: |
+    - Does SSIM provide ID card?
+- intent: faq/selection_criteria
+  examples: |
+    - What is the selection criteria for joining the college?
+- intent: faq/yes
+  examples: |
+    - Does SSIM provide books for each trimester?
+- intent: faq/no
+  examples: |
+    - Is there a waiting list in admission process?
+- intent: faq/no
+  examples: |
+    - Does SSIM admit students enter in between trimesters?
+- intent: faq/quotas_applicants
+  examples: |
+    - Are there quotas for certain kind of applicants?
+- intent: faq/yes
+  examples: |
+    - May the student can defer the admission once comitted?
+- intent: faq/yes
+  examples: |
+    - Does SSIM have parking lot?
+- intent: faq/no
+  examples: |
+    - Are there secondary school course requirements for admission?
+- intent: faq/yes
+  examples: |
+    - Does SSIM have Lift facility?
+- intent: faq/change_common_application
+  examples: |
+    - Can I add or change something I wrote on my common application form?
+- intent: faq/contact_information_change
+  examples: |
+    - My contact information has been changed since I have submitted my application form. How 	can I correct it?
+- intent: faq/yes
+  examples: |
+    - Can student be able to withdraw the admission after paying the admission fee?
    
